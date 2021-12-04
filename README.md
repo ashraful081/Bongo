@@ -1,6 +1,6 @@
 ## Solution to question #1
 
-A simple and a complex solution is provided in `./anagram.js` respectively.
+I'v written a function that detects if two strings are an anagram or not in anagram.js
 
 ## Solution to question #2
 

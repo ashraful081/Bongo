@@ -125,28 +125,28 @@ A minimal video player has been implemented in `./video_player/index.html`.
 
 just toggling the button, for play or pause the video.
 
-    ```js
-      function togglePlayPause() {
-	  if (video.paused) {
-		play.className = "pause";
-		video.play();
-	  }
-	  else {
-		play.className = "play";
-		video.pause();
-	  }
-	}
-    ```
+```js
+function togglePlayPause() {
+  if (video.paused) {
+	play.className = "pause";
+	video.play();
+  }
+  else {
+	play.className = "play";
+	video.pause();
+  }
+}
+```
     
     
 Video Forward & Rewind.
     
-    ```js
-	function mediaRewind() {
-	  video.currentTime -= 5;
-	}
+```js
+function mediaRewind() {
+  video.currentTime -= 5;
+}
 
-	function mediaForward() {
-	  video.currentTime += 5;
-	}
-    ```
+function mediaForward() {
+  video.currentTime += 5;
+}
+```

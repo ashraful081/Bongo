@@ -115,7 +115,7 @@ interface Vehicle {
       let car = new Car(4,6,true);
       car.car_details();
 	  
-	  let plane = new Plane(2,100,false);
+      let plane = new Plane(2,100,false);
       plane.plane_details();
     ```
 
@@ -123,27 +123,30 @@ interface Vehicle {
 
 A minimal video player has been implemented in `./video_player/index.html`.
 
+just toggling the button, for play or pause the video.
+
     ```js
-	  /** just toggling the button, for play or pause the video. */
       function togglePlayPause() {
-		  if (video.paused) {
-			play.className = "pause";
-			video.play();
-		  }
-		  else {
-			play.className = "play";
-			video.pause();
-		  }
-		}
-		
-		
-		
-		/** Video Forward & Rewind. */
-		function mediaRewind() {
-		  video.currentTime -= 5;
-		}
-		
-		function mediaForward() {
-		  video.currentTime += 5;
-		}
+	  if (video.paused) {
+		play.className = "pause";
+		video.play();
+	  }
+	  else {
+		play.className = "play";
+		video.pause();
+	  }
+	}
+    ```
+    
+    
+    Video Forward & Rewind.
+    
+    ```js
+	function mediaRewind() {
+	  video.currentTime -= 5;
+	}
+
+	function mediaForward() {
+	  video.currentTime += 5;
+	}
     ```

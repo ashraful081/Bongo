@@ -20,47 +20,47 @@ interface Vehicle {
     #### Cretae Car and Plane class
 	
 	```js
-		class Car{  
-			constructor(wheels,passengers,gas=true){
-				this.set_num_of_wheels=wheels;
-				this.set_num_of_passengers=passengers;
-				this.has_gas=gas;
-			}
-			get wheels(){
-				return this.set_num_of_wheels;
-			}
-			get passengers(){
-				return this.set_num_of_passengers;
-			}
-			get gas(){
-				return this.has_gas;
-			}
-
-			car_details(){
-				console.log('The car has ' + this.wheels + ' wheels, ' + this.passengers + ' passengers and the car has gas ' + this.gas); 
-			}
+	class Car{  
+		constructor(wheels,passengers,gas=true){
+			this.set_num_of_wheels=wheels;
+			this.set_num_of_passengers=passengers;
+			this.has_gas=gas;
 		}
-		
-		class Plane{
-			constructor(wheels,passengers,gas=true){
-				this.set_num_of_wheels=wheels;
-				this.set_num_of_passengers=passengers;
-				this.has_gas=gas;
-			}
-			get wheels(){
-				return this.set_num_of_wheels;
-			}
-			get passengers(){
-				return this.set_num_of_passengers;
-			}
-			get gas(){
-				return this.has_gas;
-			}
-
-			plane_details(){
-				console.log('The plane has ' + this.wheels + ' wheels, ' + this.passengers + ' passengers and the plane has gas ' + this.gas); 
-			}
+		get wheels(){
+			return this.set_num_of_wheels;
 		}
+		get passengers(){
+			return this.set_num_of_passengers;
+		}
+		get gas(){
+			return this.has_gas;
+		}
+
+		car_details(){
+			console.log('The car has ' + this.wheels + ' wheels, ' + this.passengers + ' passengers and the car has gas ' + this.gas); 
+		}
+	}
+
+	class Plane{
+		constructor(wheels,passengers,gas=true){
+			this.set_num_of_wheels=wheels;
+			this.set_num_of_passengers=passengers;
+			this.has_gas=gas;
+		}
+		get wheels(){
+			return this.set_num_of_wheels;
+		}
+		get passengers(){
+			return this.set_num_of_passengers;
+		}
+		get gas(){
+			return this.has_gas;
+		}
+
+		plane_details(){
+			console.log('The plane has ' + this.wheels + ' wheels, ' + this.passengers + ' passengers and the plane has gas ' + this.gas); 
+		}
+	}
     ```
 	
 	Run:

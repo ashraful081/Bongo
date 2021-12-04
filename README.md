@@ -139,7 +139,7 @@ just toggling the button, for play or pause the video.
     ```
     
     
-    Video Forward & Rewind.
+Video Forward & Rewind.
     
     ```js
 	function mediaRewind() {

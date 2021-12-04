@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	<title>HTML5 video player with play, forward, rewind & pause buttons</title>
+</head>
+
+<body>
+<div class="container">
+    <div class="c-video">
+        <video class="video" src="videos/animated-film.mp4"></video>
+        <div class="controls">
+            <div class="buttons">
+                <button id="play-pause"></button>
+            </div>
+
+            <div class="rewindbtn">
+                <button class="fa fa-backward"></button>
+            </div>
+            <div class="forwarbtn">
+                <button class="fa fa-forward" id='go-forward'></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

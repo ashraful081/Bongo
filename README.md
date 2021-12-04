@@ -56,27 +56,25 @@ interface Vehicle {
 
 ## Solution to question #3
 
-A minimal video player has been implemented in `./video_player/index.html`.
+According to the documentation I've written a video player application with ‘Play’, ‘Forward’, ‘Rewind’ functionalities. I used the module design pattern to develop these three functionalities.
 
-just toggling the button, for play or pause the video.
+Please open `./video_player/index.html` this file in browser to watch a sample video with the video player.
+
 
 ```js
+/** just toggling the button, for play or pause the video. */
 function togglePlayPause() {
   if (video.paused) {
-	play.className = "pause";
-	video.play();
+     play.className = "pause";
+     video.play();
   }
   else {
-	play.className = "play";
-	video.pause();
+     play.className = "play";
+     video.pause();
   }
 }
-```
-    
-    
-Video Forward & Rewind.
-    
-```js
+
+/** Video Forward & Rewind. */
 function mediaRewind() {
   video.currentTime -= 5;
 }
